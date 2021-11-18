@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	hiddenWord "elenamsd/kata-go/hiddenWord"
+	"fmt"
+)
 
 func main() {
-	fmt.Printf("Hola")
+
+	fmt.Println(hiddenWord.HiddenWord(1))
 }
